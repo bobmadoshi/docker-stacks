@@ -448,6 +448,35 @@ RUN conda install --quiet --yes \
     'zlib=1.2.11' \
     'zope-interface=4.6.0' \
     'jupyterlab=0.35.4' && \
+    pip install 'pygments-anyscript' \
+    pip install 'query-string' \
+    pip install 'get' \
+    pip install 'image' \
+    pip install 'blosc' \
+    pip install 'post' \
+    pip install 'snappy-manifolds' \
+    pip install 'pyasn1-modules' \
+    pip install 'pypng' \
+    pip install 'pandoc' \
+    pip install 'glo' \
+    pip install 'zope-interface' \
+    pip install 'plink' \
+    pip install 'pywinpty' \
+    pip install 'pyreadline' \
+    pip install 'win-inet-pton' \
+    pip install 'request' \
+    pip install 'fxrays' \
+    pip install 'pbr' \
+    pip install 'exchangelib' \
+    pip install 'requests-ntlm' \
+    pip install 'spherogram' \
+    pip install 'vc' \
+    pip install 'anypytools' \
+    pip install 'public' \
+    pip install 'cypari' \
+    pip install 'service-identity' \
+    pip install 'snappy' \
+    pip install 'wincertstore' && \
     conda clean --all && \
     jupyter labextension install @jupyterlab/hub-extension@^0.12.0 && \
     npm cache clean --force && \
@@ -456,6 +485,7 @@ RUN conda install --quiet --yes \
     rm -rf /home/$NB_USER/.cache/yarn && \
     fix-permissions $CONDA_DIR && \
     fix-permissions /home/$NB_USER
+    
 
 USER root
 
