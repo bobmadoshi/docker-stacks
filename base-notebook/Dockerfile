@@ -422,6 +422,7 @@ RUN conda install --quiet --yes \
     'zeromq=4.2.5' \
     'zlib=1.2.11' \
     'jupyterlab=0.35.4' && \
+    pip install 'turbodbc' \
     pip install 'pygments-anyscript' \
     pip install 'query-string' \
     pip install 'get' \
