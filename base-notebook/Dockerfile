@@ -442,7 +442,6 @@ RUN conda install --quiet --yes \
     'webencodings=0.5.1' \
     'wheel=0.33.1' \
     'win-inet-pton=1.1.0' \
-    'wincertstore=0.2' \
     'xlsxwriter=1.1.7' \
     'xz=5.2.4' \
     'zeromq=4.2.5' \
