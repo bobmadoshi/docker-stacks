@@ -215,7 +215,6 @@ RUN conda install --quiet --yes \
     'py=1.8.0' \
     'pyarrow=0.12.1' \
     'pyasn1=0.4.5' \
-    'pyasn1-modules=0.2.5' \
     'pybind11=2.2.4' \
     'pycparser=2.19' \
     'pydispatcher=2.0.5' \
@@ -226,7 +225,6 @@ RUN conda install --quiet --yes \
     'pyhamcrest=1.9.0' \
     'pyodbc=4.0.24' \
     'pyopenssl=19.0.0' \
-    'pypng=0.0.19' \
     'pyrsistent=0.14.11' \
     'pysocks=1.6.8' \
     'pytables=3.5.1' \
@@ -396,7 +394,6 @@ RUN conda install --quiet --yes \
     'scipy=1.2.1' \
     'scrapy=1.6.0' \
     'send2trash=1.5.0' \
-    'service-identity=18.1.0' \
     'setuptools=40.8.0' \
     'six=1.12.0' \
     'soupsieve=1.9.1' \
