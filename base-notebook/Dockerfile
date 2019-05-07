@@ -187,7 +187,6 @@ RUN conda install --quiet --yes \
     'nbformat=4.4.0' \
     'ncurses=6.1' \
     'networkx=2.3' \
-    'notebook=5.7.6' \
     'ntlm-auth=1.2.0' \
     'numexpr=2.6.9' \
     'numpy=1.16.2' \
