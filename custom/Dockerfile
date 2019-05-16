@@ -109,6 +109,7 @@ RUN conda install --quiet --yes \
     pip install --quiet --yes \
     'exchangelib' \
     'turbodbc' \
+    'mysql' \
     && \    
     conda clean --all -f -y && \
     jupyter labextension install @jupyterlab/hub-extension@^0.12.0 && \
